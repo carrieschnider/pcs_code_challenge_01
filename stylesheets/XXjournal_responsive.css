@@ -67,11 +67,17 @@ body {
 
 }
 
+.align-right{
+  float: right;
+  padding: 3%
+}
+
 .article_content {
   margin: 0 5% 0 5%;
   padding: 2%;
   border:1px solid gray;
   background-color: #ffffff;
+  float: right;
 
 }
 

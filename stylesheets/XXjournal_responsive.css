@@ -28,7 +28,7 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #8AE881
+  background-color: #9BBF9D
 }
 
 /* The next set of styles pretty much just "open up" the page and create white space */
@@ -63,7 +63,7 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   padding: 2%;
-  background-color: #8AE881;
+  background-color: #677F69;
 
 }
 
@@ -82,7 +82,7 @@ body {
   margin: 0 5% 0 5%;
   padding: 3%;
   border:1px solid gray;
-  background-color: #FF7A78;
+  background-color: #B8E3BA;
 
 }
 
@@ -95,24 +95,26 @@ body {
 
 }
 
+/* Add the hex color codes here for the color change at the tall resolution */
+
 @media (max-width: 600px) {
   .validation_badge {
     display
   }
   .article_heading {
     border: none;
-    background-color: #DA8BFF;
+    background-color: #FF7662;
   }
   .article_content {
     margin: 0 5% 0 5%;
     padding: 3%;
     border:1px solid gray;
-    background-color: #FFFA56;
+    background-color: #9FD9E3;
     }
   .container {
     width: 100%;
     margin:0;
-    background-color: #DA8BFF;
+    background-color: #729CA3;
   }
 
 }

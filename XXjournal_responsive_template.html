@@ -1,130 +1,114 @@
-<?xmL version="1.0" encoding="UTF-8"?>
-
-<!-- The doctype declares the type of coding the HTML page uses so that the browser knows how to render it. -->
-
 <!DOCTYPE html>
 
-<!-- The  html tag contains everything on the page: head and body-->
+<html>
+
+<head>
 
 
-  <!-- The "head" container includes all the information the browser needs to display the page -->
   
-    <!-- the "meta" tag is used to provide, ah, meta-information about the page. 
-         This one is another method to the browser what this content is and what character set we are using 
-    -->
-    <mEtA ChARseT=UTF-8>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <!-- edit the title to include your name and make it in possessive case (http://englishplus.com/grammar/00000364.htm) -->
-    <tItle>Code Chameleons' Journal</TItLE>
     
-    <!-- The "link" tag identifies your external CSS style sheet. Edit this link to use your particular file  -->
-    <LiNK Rel="stylesheet" type=text/css HrEf=http://yui.yahooapis.com/3.14.1/build/cssnormalize/cssnormalize-min.css>
+    
+    <title>Code Chameleons' Journal</title>
+    
+    
+    <link Rel="stylesheet" type=text/css HrEf=http://yui.yahooapis.com/3.14.1/build/cssnormalize/cssnormalize-min.css>
 
-    <LinK rEL="stylesheet" TypE=text/css hrEf="stylesheets/XXjournal_responsive.css" />
-  	
-    <!-- the "style" tag container includes this page's unique style rules -->
-    <STyle>
-  		p {color: #111111;}
-  	</STYLe>
+    <link rEL="stylesheet" TypE=text/css hrEf="stylesheets/XXjournal_responsive.css" />
+    
+    
+    <style>
+      p {color: #111111;}
+    </style>
+  </head>
+  
+    <body>
+ 
   
 
-  <!-- The "body" tag container includes the structure and content of the page -->
-  
+    <div class="container">
 
-    <Div cLaSs=container> <!-- contains everything on the page; used for centering and margins-->
+      <div class="header"> 
+        <div cLasS="validation_badge">
 
-    	<Div cLASS=header> <!-- contains the constant stuff at the top of the page -->
-        <dIV cLasS=validation_badge>
-
-        <!-- replace this html with the html snippets that displays your validation badges. -->
-        <P>
-          <iMg src="images/html_validation_badge_mockup.png" 
+        
+        <p>
+          <img src="images/html_validation_badge_mockup.png" 
                alt="replace this with the HTML validator badge code snippet" 
                height="31" 
                width="88" 
           />
+        </p>
         
-        <!-- Notice that the indentation style of the second segment of code is all on one line. Which one is more readable for you? -->
-        <P>
-          <iMg Src="images/css_validation_badge_mockup.png" ALT="replace this with the CSS validator badge code snippet" heiGht="31" widtH=88>
         
-      </DiV>
-
-    	<diV class=page_heading>
-        <!-- replace "student name" with your name and make it in possesive case (http://englishplus.com/grammar/00000364.htm) -->
-        <H1><i>Code Chameleons'</i> Journal</H1>
-    	</diV>
-    	<diV CLaSS="author_information">
-        <a HrEF=mailto:student@email.com>kraus.michele@gmail.com</a>
-    	</DIv>
-    </dIv>
-
-    		
-    	<!-- every time you update the page, create a new article 
-    	you can copy this section of code (everything in the div.article container) and change the contents 
-    	-->
-
-      <DiV cLaSS=article>
-        <dIV CLASS="article_heading">
-         <h1>Freelancing Week One</h1> <i> 02/28/2014</I>
-        </diV>
-        <DiV CLaSs="article_content">
-          <p><iMg SRc=http://imgs.xkcd.com/comics/unique_date.png Alt=xkcd WiDTh="200" CLAss=align_left>The first week of class was really about getting to know each other and learning where this class would take us.  We were set up with some basic tools that we will be using on all our future projects.  We were introduced to version control and git, and we set up a local webserver on our laptops.  We got our first real world example of front end freelancing from Nim, which soared over my head, but gave me hope that by the end of 16 weeks I will understand parallax scrolling.  Nuts.
-          <Br></BR>
-          I have come into this class behind most in technical skills, but I feel I am in good hands with our teachers.  They take the time to summarize information and work with us one on one.  They are very invested in our success and won’t let anyone fail.  I feel very taken care of, and my mind is buzzing with new information.
-
-          <ol>
-            <lI>Teamwork and Version Control.</li>
-            <Li>Project Workflow.</LI>
-            <Li>The importance of soft skills.</li>
-            <LI>Kitchen metaphor for web servers.</LI>
-            <Li>How to present ideas to a group.
-          </ol>
-
-          
-
-        </dIv>    
-      </dIv>
-
-
-      <DiV CLASS=article>
-        <DIv cLass="article_heading">
-         <h1>Freelancing Week Two </h1> <i>03/07/2014</i>
-        </diV>
-        <DIv CLAss="article_content">
-          <p><imG SrC="images/delicious.png" aLT=xkcd wIdth=250 ClASS=align_right>Most people can easily answer a question like what’s your favorite movie or what’s the best book you’ve ever read? But what about best email ever received? I’ve never really thought about this question until the day I read an email from Cris Kelly asking me if I would be interested in joining a new class named Front-end Freelancing.
-          <P>The class is filled with such an eclectic group of artistic, motivated and bright individuals who are contagious to be around.
-          <P>The second week is now coming to an end and I feel like I now have a decent foundation to start off our first code challenge. The top 5 concepts that I learned from week 2 are:
-          
-          
-
-          <Ol>
-            <li>HTML File Structure</LI>
-            <li>Markup vs Markdown</li>
-            <LI>CSS Hierarchy
-            <lI>Sublime Text Shortcuts
-            <Li>Nim’s Work Flow Tips</LI>
-          </Ol>
-          <P>It's time for the Code Chameleon to show their colors!!!!
-
-          
-
-        </Div>    
+        <p>
+          <img src="images/css_validation_badge_mockup.png" ALT="replace this with the CSS validator badge code snippet" heiGht="31" widtH=88>
+        </p>
       </div>
-    	<!-- the footer area sits at the bottom of the page under all of the journal entries -->
 
-    	<dIv ClasS="footer">
-        <!-- edit the footer to include your name  -->
-    	 Copyright &copy; 2014 <i>Code Chameleons</I>
-    	</div>
-  	</DIv>  <!-- .container -->
+      <div class="page_heading">
+       
+        <h1><i>Code Chameleons'</i> Journal</h1>
+      </div>
+      <diV class="author_information">
+        <a href="mailto:student@email.com">kraus.michele@gmail.com</a>
+      </div>
+    </div>
 
-    <!-- This is where you link to this page's javascript file. -->
-  	<SCripT></scrIPT>
+        
+    
 
-    <!-- The "script" tag can also contain actual scripts that get executed immediately as the page finishes loading -->
+      <div class="article">
+        <div class="article_heading">
+         <h1>Freelancing Week One</h1> <i> 02/28/2014</i>
+        </div>
+        <div class="article_content">
+          <p><img src=http://imgs.xkcd.com/comics/unique_date.png Alt=xkcd WiDTh="200" class=align_left>The first week of class was really about getting to know each other and learning where this class would take us.  We were set up with some basic tools that we will be using on all our future projects.  We were introduced to version control and git, and we set up a local webserver on our laptops.  We got our first real world example of front end freelancing from Nim, which soared over my head, but gave me hope that by the end of 16 weeks I will understand parallax scrolling.  Nuts.</p>
+          <br>
+          <p>I have come into this class behind most in technical skills, but I feel I am in good hands with our teachers.  They take the time to summarize information and work with us one on one.  They are very invested in our success and won’t let anyone fail.  I feel very taken care of, and my mind is buzzing with new information.</p>
 
-    <sCRiPT>
-      initializePage(); // this function is used to perform any scripts needed on the page.
-    </scrIpT>
-  
+          <ul>
+            <li>Teamwork and Version Control.</li>
+            <li>Project Workflow.</li>
+            <li>The importance of soft skills.</li>
+            <li>Kitchen metaphor for web servers.</li>
+            <li>How to present ideas to a group.</li>
+          </ul>
+
+          
+
+        </div>    
+      </div>
+
+
+      <div class="article">
+        <div cLass="article_heading">
+         <h1>Freelancing Week Two </h1> <i>03/07/2014</i>
+        </div>
+        <div class="article_content">
+          <p><img src="images/delicious.png" alt=xkcd width=250 class=align_right>Most people can easily answer a question like what’s your favorite movie or what’s the best book you’ve ever read? But what about best email ever received? I’ve never really thought about this question until the day I read an email from Cris Kelly asking me if I would be interested in joining a new class named Front-end Freelancing.</p>
+          <p>The class is filled with such an eclectic group of artistic, motivated and bright individuals who are contagious to be around.</p>
+          <p>The second week is now coming to an end and I feel like I now have a decent foundation to start off our first code challenge. The top 5 concepts that I learned from week 2 are:</p>
+          
+          <ul>
+            <li>HTML File Structure</li>
+            <li>Markup vs Markdown</li>
+            <li>CSS Hierarchy</li>
+            <li>Sublime Text Shortcuts</li>
+            <li>Work Flow Tips</li>
+          </ul>
+          <p>It's time for the Code Chameleon to show their colors!!!!
+          </p>
+
+          
+
+        </div>    
+      </div>
+   <div class="footer">
+        Copyright &copy; 2014 <i>Code Chameleons</I>
+      </div>
+     </div>  
+
+  </body>
+</html>
